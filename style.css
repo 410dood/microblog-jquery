@@ -1,19 +1,19 @@
-/* 
-.blogEntry {
+ .blogEntry {
     position: relative;
     color: black;
-    width: 100%;
+    width: 50%;
     height: auto;
-    }
-
-.blogBox {
+    } 
+/* 
+ .blogBox {
         position: relative;
         color: black;
         width: 50%;
         height: auto;
         background-color: beige;
         padding-top: 150px;
-        }
+        } 
+
 #rowForm {
     position: absolute;
     top: 30%;
@@ -21,22 +21,22 @@
     transform: translate(-50%, -50%);
     padding: 55px;
     color: black;
-} */
-/* div {
+} 
+div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5px;
     color: black;
-} */
-/* .span {
+}  */
+ .span {
     font: 200px;
     position: relative;
     color: black;
-    width: 90%;
+    width: 50%;
     height: auto;
-      } */
+      }
 p {
     font-size: 50px;
     font-style: bold;
@@ -57,8 +57,9 @@ body {
 
 #delete {
   float: right;
+  margin: 20px;
 }
-#submit {
+#date {
   float: right;
 }
 .panel {

@@ -21,8 +21,8 @@ $("#submit").on('click', function(){
   //create variable for delete button
 	var deleteButton = '<button id="delete" class="btn btn-danger"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>';
   //add a box (panel) for new blog post. Make it appear top->botton new->old
-  $('#blogBox').prepend('<div class="panel-info:after"><div class= "panel-body:after"><div class="panel-heading:after">'+ newBlogPost+date+deleteButton+'</div></div></div>');
-  // $('#blogBox').prepend('<h1><h2>' + newBlogPost + deleteButton + '</h1></h2>');
+  // $('#blogBox').prepend('<div class="panel-info:after"><div class= "panel-body:after"><div class="panel-heading:after">'+ newBlogPost+date+deleteButton+'</div></div></div>');
+  $('#blogBox').prepend('<div><div>' + newBlogPost + deleteButton + '</div></div>');
   // $('#blogBox').prepend('<div class="panel panel-default"><div class="panel panel-body:after">'+ newBlogPost+'</div></div>');
   // $('#blogBox').prepend('<div class="panel panel-info"> '+ date +'<div class="panel-heading">' + deleteButton + '<div class="panel-body">" + 'newBlogPost' + </div></div></div>');
 
