@@ -6,29 +6,37 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
   <title></title>
 </head>
 <body>
 <span class="container">
   <h1>BLOG DOODY</h1>
-  </span>
-</div>
+</span>
 <div class="container">
-      <div class="row" id="rowForm">
-        <div class="col-md-12">
-          <div class="panel-heading">Bloggy blog</div>
-            <div class="">
-            <form id="myForm">
-              <input type="text" id="content" placeholder="Enter Text">
+  <div class="row" id="rowForm">
+    <div class="col-md-12">
+      <div class= "panel panel-default">
+        <div class="panel-heading">Bloggy blog</div><br>
+          <div class= "panel-body">
+<!--the form-->
+            <form id="blogpost">
+              <input type="text" id="content" placeholder="Enter Text"><br>
               <button type="submit" id="submit" class="btn btn-info">SUBMIT</button>
             </form>
-        </div>
+<!--form -->
+          </div>
+        <div id="bloggy"></div>
       </div>
     </div>
   </div>
-</div>
+</div><br><br>
+  <!--box where blog posts shoud go -->
+<span class="container" id="blogBox" style:"table">
+  <div class="panel-info"></div>a<br>
+  <div class="panel-heading"></div>b<br>
+  <div class="panel-body"></div>c<br>
+</span>
 
-<script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
-
